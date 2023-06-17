@@ -1,0 +1,32 @@
+.expect{
+    background-color: black;
+
+    .expect-top{
+        padding-top: 119px;
+
+        h4{
+            margin: 0;
+            color: #E4D8CC;
+        }
+      
+    }
+   .expect-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+       ul{
+        padding-left: 0;
+
+       }
+    ul li {
+        padding-top: 53px;
+        color:#B99FEA;
+        list-style: none;
+        a{
+            text-decoration: none;
+         color:#B99FEA;;
+        }
+    
+    }
+   }
+}

@@ -1,0 +1,47 @@
+.reviews{
+    background:#F5F5F5 ;
+    padding-top: 116px;
+ 
+
+    .reviews-tables{
+        display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    padding-bottom: 112px;
+    .reviews-content{
+        display: grid;
+        img{
+            margin:0 auto ;
+        }
+        .first-kovichka{
+            padding-top:30px;
+        }
+        p{
+            font-size: 24px;
+            line-height: 32px;
+             color: #E4D8CC;
+             text-align: center;
+        }
+        .picture-of-review{
+            padding-top: 68px;
+    margin: 0 auto;
+    
+        }
+        .picture-of-review-with-comment{
+            padding-top: 64px;
+            margin: 0 auto;
+            display: flex;
+
+            
+        }
+        .autors-comment{
+            color: #E4D8CC;
+            font-size: 14px;
+            line-height: 24px;
+            padding-left: 29px;
+            padding-top: 10px;
+        }
+      }
+    }
+}

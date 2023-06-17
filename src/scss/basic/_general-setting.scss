@@ -1,0 +1,58 @@
+*{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+
+    @media (max-width:$desk) {
+        max-width: $desk;
+    }
+
+
+    @media (max-width: $tab) {
+        max-width: $tab;
+    }
+
+    @media (max-width: $phone) {
+        max-width: $phone;
+    }
+}
+
+
+h1 {
+    font-size: 57px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 58px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+h4 {
+font-size: 19px;
+line-height: 46px;
+}
+h5 {
+    font-size: 48px;
+line-height: 54px;
+}
+p{
+
+font-size: 14px;
+line-height: 22px;
+}
+

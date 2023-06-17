@@ -1,0 +1,31 @@
+.bonus{
+    background:url("/src/img/bgBonus.jpg") ;
+    padding-top:140px ;
+    padding-bottom:119px ;
+
+
+}
+.bonus-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    span{
+        color: #C3BAB1;
+
+    }
+    
+    h5{ 
+        margin: 0;
+        color: #E7DFD8;
+        padding-right: 626px;
+    }
+    p{
+        color: #E4D8CC;
+        padding-bottom: 14px;
+    }
+    p {
+        box-sizing: border-box;
+        border-bottom: 1px solid #E4D8CC;
+        width: 271px;
+    }
+}
